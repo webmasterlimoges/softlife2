@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ 'App.Name'|trans }}&nbsp;|&nbsp;{% block title %}{% endblock %}</title>
+        <link rel="shortcut icon" href="{{ asset('build/images/app.2895e2c9.svg') }}" type="image/x-icon" />
+        {% block stylesheets %}
+            <link rel="stylesheet" type="text/css" href="{{ asset('build/app.css') }}">
+        {% endblock %}
+    </head>
+    <body>
+        <div class="head">
+            <div class="inline"><h1>{{ 'App.Name'|trans }}</h1></div>
+            <div class="inline"><h2>{{ 'App.Slogan'|trans }}</h2></div>
+        </div>
+        <div class="body">
+            {% block body %}{% endblock %}
+        </div>
+        <div class="footer">
+            <div class="inline">{{ 'Footer.Copyrigth'|trans }}</div>
+            <div class="inline">&nbsp;|&nbsp;</div>
+            <div class="inline"><a href="mailto:{{ 'Footer.Contact'|trans }}">{{ 'Footer.Conceptor'|trans }}</a></div>
+        </div>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

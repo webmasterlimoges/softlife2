@@ -1,0 +1,95 @@
+
+
+body {
+    background-color: lightgray;
+    color: #313131;
+    font-family: Ubuntu, Arial,sans-serif;
+    margin: 0;
+
+}
+
+.head {
+    border-top:rgba( 7, 86,142,1) 2px solid;
+    background-color: #3289C7;
+    color: #313131 ;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url("../images/app.svg") ;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 10px;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+
+h2 {
+    font-size: large;
+}
+
+
+h3 {
+    font-size: medium;
+}
+
+
+
+.footer {
+    background-color:  #313131;
+    color: rgba( 50,137,199,1);
+    text-align: center;
+    vert-align: middle;
+    padding: 15px;
+    font-size: x-small;
+
+}
+
+ .inline {
+    display: inline-block;
+    padding: 0 5px 0 5px;
+}
+
+.footer a {
+    color:rgba( 50,137,199,1);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    background-color: rgba( 50,137,199,0.1);
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.body {
+    min-height: 600px;
+    padding: 10px;
+}
+
+
+#formlogin {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 17px;
+    border:   #313131 2px solid;
+    background-image:  linear-gradient( to bottom, rgba( 15,116,187,1),rgba(127,186,227,1));
+    color:  #313131 ;
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    cursor: pointer;
+    text-shadow: #3289C7;
+}
+
+.rgba-primary-0 { color: rgba( 50,137,199,1) }
+.rgba-primary-1 { color: rgba(127,186,227,1) }
+.rgba-primary-2 { color: rgba( 84,159,212,1) }
+.rgba-primary-3 { color: rgba( 15,116,187,1) }
+.rgba-primary-4 { color: rgba(  7, 86,142,1) }
